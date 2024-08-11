@@ -1,0 +1,192 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonials {
+    width: 100%;
+    background: url('Project assets/ring.PNG');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(184, 24, 216, 0.719);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.head {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 350px;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px 0;
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-item {
+    /*background-color: rgba(255, 255, 255, 0.9);*/
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.card-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+.user-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.user-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.message {
+    font-size: 1rem;
+    color: #666;
+}
+
+.swiper-pagination-bullet {
+    background-color: #fff;
+    height: 15px;
+    width: 15px;
+    opacity: 1;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .swiper {
+        padding: 20px 0;
+    }
+}
+.news-updates {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.news-updates h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.news-updates .sub-heading {
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.news-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.card .date-label {
+    background-color: #f95f5b;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #777;
+    line-height: 1.5;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+/*
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}*/
